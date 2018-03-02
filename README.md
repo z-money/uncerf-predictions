@@ -14,7 +14,7 @@ Using pandas and scikit-learn, as follows:
 2. Clean/transform datasets and join on Country Code and Year
 3. Run random forest classification to estimate donation change
 
-##Findings
+## Findings
 Results from a single run of predict_donations.py:
 | preds		| decrease	| increase	| same	|
 | actual	|:---------:|:---------:|:-----:|	
