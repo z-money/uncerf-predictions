@@ -16,9 +16,9 @@ Using pandas and scikit-learn, as follows:
 
 ## Findings
 Results from a single run of predict_donations.py:
-| preds		| decrease	| increase	| same	|
+| preds | decrease | increase | same |
 | --------- |:---------:|:---------:|:-----:|
-| actual	|			|			|		|
-| decrease	| 70        |  38       | 0		|
-| increase	|        49 |       67  |  0	|
-| same		|      0    |     0     |  40	|
+| actual | | | |
+| decrease | 70        |  38       | 0 |
+| increase |        49 |       67  |  0 |
+| same | 0    |     0     |  40	|
