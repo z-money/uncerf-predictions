@@ -25,7 +25,7 @@ Results from a single run of predict_donations.py:
 | **Increase**      | 49     |   67 | 0
 | **Same** | 0 | 0 | 40
 
-As an example of how to read this column we can look at the Decrease column.  This column tells us that we predicted a decrease in donation 70 times and were correct, 49 other times we predicted a decrease but the donations actually increased.  The same logic can be applied to the increase column and we can see we were right 67 times and wrong 38 when we predicted an increase.
+As an example of how to read this table we can look at the Decrease column.  This column tells us that we predicted a decrease in donation 70 times and were correct, 49 other times we predicted a decrease but the donations actually increased.  The same logic can be applied to the increase column and we can see we were right 67 times and wrong 38 when we predicted an increase.
 
 This table seems to suggest we have decent predictive power but we should be hesitant to accept it's findings.  Random forests don't produce the same model every time, so we should probably average this out over many runs.  Also, random forests are in danger of overfitting, which we should be especially concerned about in the Same column where we were always right.  In fact, if we look at the data it appears that certain countries make a round number donation every year which could be skewing our data some.
 
